@@ -1,6 +1,6 @@
 package CH01;
 
-public class CH05변수_자료형 {
+public class C05변수_자료형 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

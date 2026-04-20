@@ -1,6 +1,6 @@
 package CH01;
 
-public class CH04변수_자료형 {
+public class C04변수_자료형 {
 
 	public static void main(String[] args) {
 
