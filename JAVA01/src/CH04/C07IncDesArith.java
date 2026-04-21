@@ -6,11 +6,11 @@ public class C07IncDesArith {
 		boolean e;
 		d=++a*b--;
 		 System.out.printf("a = %d, b = %d, d = %d\n", a, b, d);
-//		d=a++ + ++c - b--;
-//		System.out.printf("a = %d, b = %d, c = %d, d = %d\n", a, b, c, d);
-//		a=1;
-//		b=0;
-//		e=(a++>0)||((b*d/c)>0);
-//		System.out.printf("a = %d, b = %d, c = %d, d = %d ,e = %b\n", a, b, c, d , e);
+		d=a++ + ++c - b--;
+		System.out.printf("a = %d, b = %d, c = %d, d = %d\n", a, b, c, d); 
+		a=1;
+		b=0;
+		e=(a++>0)||((b*d/c)>0);
+		System.out.printf("a = %d, b = %d, c = %d, d = %d ,e = %b\n", a, b, c, d , e);
 	}
 }	
