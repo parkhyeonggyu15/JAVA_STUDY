@@ -1,11 +1,11 @@
 package CH01;
 
 public class C01Person {
-	//속성
-	public String name;
-	public int age;
-	public float height;
-	public double weight;
+	//속성(멤버변수,필드)
+	public String name;		// null(기본값)
+	public int age;			// 0(기본값)
+	public float height;	// 0.0F(기본값)
+	public double weight;	// 0.0(기본값)
 	
-	//기능
+	//기능(메서드,함수..)
 }
