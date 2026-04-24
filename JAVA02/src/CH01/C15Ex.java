@@ -49,7 +49,7 @@ class Audience {
 
 	@Override
 	public String toString() { 						//21.Audience클래스 호출됨
-		return "관객 [보유금액=" + myMoney + ", 티켓개수=" + ticketCnt + "]";
+		return "관객 [보유금액=" + myMoney + ", 티켓개수=" + ticketCnt + "]"; //22. Audience의 멤버변수 myMoney, ticketCnt 받고 출력
 	}
 	
 }
@@ -71,8 +71,8 @@ class TicketSeller {
 	}
 
 	  @Override
-	  public String toString() { 						//23.TicketSeller클래스 호출됨	
-		return "매표원 [보유금액=" + myMoney + ", 티켓재고=" + ticketCnt + ", 티켓가격=" + price + "]";
+	  public String toString() { 						//24.TicketSeller클래스 호출됨	
+		return "매표원 [보유금액=" + myMoney + ", 티켓재고=" + ticketCnt + ", 티켓가격=" + price + "]"; //25. TicketSeller의 멤버변수 myMoney, ticketCnt, price 받고 출력	
 	  }
 	  
 }
@@ -85,8 +85,8 @@ public class C15Ex {
 		TicketSeller 매표원 = new TicketSeller(100000,10,15000); //5. TicketSeller 객체 생성 후 생성자 호출
 		관객.reserve(매표원,15000); //10. 관객객체로 가서 reserve메소드 호출
 		
-		System.out.println(관객); //20.Audience클래스 호출
-		System.out.println(매표원);//22.TicketSeller클래스 호출		
+		System.out.println(관객); //20. Audience객체 호출
+		System.out.println(매표원);//23. TicketSeller객체 호출		
 	}
 
 }
