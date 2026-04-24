@@ -75,7 +75,7 @@ class Seller{
 	}
 
 }
-public class Ch12Ex {
+public class C12Ex {
 
 	public static void main(String[] args) {
 		

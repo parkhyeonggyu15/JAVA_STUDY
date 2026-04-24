@@ -19,7 +19,7 @@ class Grade{
 
 	
 }
-public class CH11EX_GRADE {
+public class C11EX_GRADE {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
