@@ -10,7 +10,7 @@ class Sub extends Super{
 public class C06UpDownCastingMain {
 
 	public static void main(String[] args) {
-		//casting : 형변환
+		//Casting : 형변환
 		
 		//NoCasting : 형변환 x
 		Super ob1 = new Super();
@@ -25,7 +25,26 @@ public class C06UpDownCastingMain {
 		//이유				: 1) !상속관계로 구성된 모든 하위객체를 연결할 수 있다
 		//					: 2) !Upcatsing된 상태에서는 재정의된 메서드에 접근 가능하다	
 		
-		//Downcasting[★★★★] :
+		Super ob3 = new Sub(); 	//UPCASTING
+		ob3.n1=10;
+//		ob3.n2=20;		// x
+		
+		Super ob4 = ob2;	//UPCASTING
+		ob4.n1=100;
+//		ob4.n2=200;		// x
+		
+		//Downcasting[★★★★] 	: 하위클래스형 참조변수 = 상위클래스형 객체
+		//						: 강제형변환
+		//						: Upcasting을 전제로 작업을 진행하는 경우가 많다
+		
+//		Sub ob5 = (Sub)new Super();
+//		ob5.n1 = 100;
+//		ob5.n2 = 200;
+		
+		Sub down = (Sub)ob4;		//
+		down.n1=100;
+		down.n2=200;
+		
 	}
 
 }
