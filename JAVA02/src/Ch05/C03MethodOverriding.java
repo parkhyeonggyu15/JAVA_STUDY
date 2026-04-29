@@ -1,4 +1,4 @@
-package CH05;
+package Ch05;
 
 //함수재정의(Method overriding)
 // 상속관계를 전제로 상위클래스의 메서드를 하위클래스가 재정의(함수의Body를 고쳐사용)하는 것을 허용한 문법

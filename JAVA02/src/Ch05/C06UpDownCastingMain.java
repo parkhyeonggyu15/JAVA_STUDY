@@ -1,4 +1,4 @@
-package CH05;
+package Ch05;
 
 
 class Super{
@@ -10,7 +10,7 @@ class Sub extends Super{
 public class C06UpDownCastingMain {
 
 	public static void main(String[] args) {
-		//Casting : 형변환
+		//Casting : 클래스 형변환
 		
 		//NoCasting : 형변환 x
 		Super ob1 = new Super();
@@ -27,11 +27,11 @@ public class C06UpDownCastingMain {
 		
 		Super ob3 = new Sub(); 	//UPCASTING
 		ob3.n1=10;
-//		ob3.n2=20;		// x
+//		ob3.n2=20;			// x
 		
 		Super ob4 = ob2;	//UPCASTING
 		ob4.n1=100;
-//		ob4.n2=200;		// x
+//		ob4.n2=200;			// x
 		
 		//Downcasting[★★★★] 	: 하위클래스형 참조변수 = 상위클래스형 객체
 		//						: 강제형변환

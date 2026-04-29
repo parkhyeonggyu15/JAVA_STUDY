@@ -1,4 +1,4 @@
-package CH05;
+package Ch05;
 
 public class C00INFO {
 
