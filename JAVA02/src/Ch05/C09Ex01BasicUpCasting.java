@@ -28,6 +28,8 @@ public class C09Ex01BasicUpCasting {
         // 3. 업캐스팅된 참조로 makeSound() 메서드를 호출해보세요
         ob2.makeSound();
         // 4. 업캐스팅된 참조로 fetch() 메서드를 호출해보고 결과를 확인하세요
-//        ob2.fetch();
+        Dog ob3 =(Dog)ob2;
+        ob3.fetch();
+        ((Dog)ob2).fetch();
     }
 } 

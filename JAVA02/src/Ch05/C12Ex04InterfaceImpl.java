@@ -29,9 +29,12 @@ public class C12Ex04InterfaceImpl {
         // 1. Piano 인스턴스를 생성하세요
         Piano ob1 = new Piano();
         // 2. 생성한 인스턴스를 Playable 인터페이스 타입으로 업캐스팅하세요
+        Playable ob2 = ob1;
         // 3. 업캐스팅된 참조로 play() 메서드를 호출해보세요
+        ob2.play();
         // 4. Instrument 클래스 타입으로 업캐스팅하고 play() 메서드를 호출해보세요
         // 5. 각 단계에서 tune() 메서드 호출을 시도해보세요
+        
         
 
         

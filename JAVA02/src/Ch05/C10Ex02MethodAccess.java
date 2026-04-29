@@ -28,7 +28,7 @@ public class C10Ex02MethodAccess {
         // 3. 업캐스팅된 참조로 start() 메서드를 호출해보세요
         ob2.start();
         // 4. 업캐스팅된 참조로 turboBoost() 메서드 호출을 시도해보세요
-//        ob2.turboBoost();
+        ((Car)ob2).turboBoost();
         // 5. 다시 Car 타입으로 다운캐스팅한 후 turboBoost() 메서드를 호출해보세요
         Car ob3 =(Car)ob2;
         ob3.turboBoost();
