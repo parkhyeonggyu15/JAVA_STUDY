@@ -1,4 +1,4 @@
-package PRETICE;
+package PRACTICE;
 
 class SongEx{
 	String title;

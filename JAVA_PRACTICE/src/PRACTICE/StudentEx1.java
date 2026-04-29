@@ -1,4 +1,4 @@
-package PRETICE;
+package PRACTICE;
 
 import java.util.Scanner;
 

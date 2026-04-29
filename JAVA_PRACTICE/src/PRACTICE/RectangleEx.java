@@ -1,4 +1,4 @@
-package PRETICE;
+package PRACTICE;
 
 class Rectangle {
 	int x, y, width, height;
