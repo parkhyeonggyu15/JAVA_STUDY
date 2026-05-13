@@ -29,7 +29,7 @@ class Cat extends Animal {
     }
 }
 
-//팩토리 Interface,상속관계의 모든 Factoray객체를 받음 
+//팩토리 Interface,상속관계의 모든 Factory객체를 받음 
 interface AnimalFactory 
 {
     Animal createAnimal();	//추상메서드
